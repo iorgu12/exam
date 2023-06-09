@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-		sh 'pkg .'
+		sh './index.js'
 		
             }
         }
