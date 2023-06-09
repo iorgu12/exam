@@ -9,8 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-		sh'chmod +rwx index.js'
-		sh 'sudo pkg .'
+		
 		
             }
         }
