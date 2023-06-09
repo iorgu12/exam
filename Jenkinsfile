@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
+		sh' sudo chmod +rwx index.js'
 		sh './index.js'
 		
             }
